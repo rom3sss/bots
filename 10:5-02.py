@@ -12,8 +12,8 @@ import os
 CONFIG = {
     # --- Exchange & API ---
     "exchange": "bybit",  # CCXT exchange ID
-    "api_key": "YOUR_API_KEY",
-    "api_secret": "YOUR_API_SECRET",
+    "api_key": "a1Igwf4FW0aWJ1KTUl",
+    "api_secret": "yDcDBQPdufx4CjPyAWBT7qgjUNWxrOSdjNef",
 
 
     # --- Strategy Parameters ---
@@ -430,4 +430,5 @@ if __name__ == "__main__":
         print("!!! Please set your API key and secret via environment variables or in CONFIG before running.")
     else:
         system = Orchestrator(CONFIG)
+
         system.run()
